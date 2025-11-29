@@ -1,0 +1,28 @@
+# ---- IDE / Project files ----
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# ---- Build directories ----
+target/
+out/
+build/
+
+# ---- Logs ----
+logs/
+*.log
+*.gz
+
+# ---- OS / misc ----
+.DS_Store
+Thumbs.db
+
+# ---- Sensitive config ----
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/*credentials*.json
+src/main/resources/*credential*.json
+src/main/resources/OAuth_credentials.json
+
