@@ -1,0 +1,15 @@
+This folder contains the code which is going to classify the emails based on their content.
+
+After the emails are classified they are forwarded to Departmet heads from the company email.
+
+For now there are few categories of emails as per the scale of project: 
+ 1.Accounts
+ 2.Sales
+ 3.CRM
+ 4.Service
+ 5.Purchases
+ 6.Others(Alerts,Advertisement etc)
+ 
+I have taken pre-trained model, BERT(Bidirectional Encoder Represetations from Transformers) is a NLP model developed by Google.
+
+I have trained the model on dataset containing set of emails. Dataset is taken from Kaggle
